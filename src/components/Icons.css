@@ -1,0 +1,11 @@
+.icons {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+  margin: auto;
+}
+

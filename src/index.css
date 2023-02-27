@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0B111B;
+  color: white;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.body{
+  position: relative;
+  overflow: hidden;
+}
+.bg1{
+  display: block;
+  position: absolute;
+  bottom: 17%;
+  right: 0;
+  width: 816px;
+  height: 816px;
+  transform: translateX(50%);
+  background: radial-gradient(#EB6F3D90 -40%, transparent 70%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg2{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 816px;
+  height: 816px;
+  transform: translate(40%, -40%);
+  background: radial-gradient(#2D94C390 -40%, transparent 70%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg3{
+  display: block;
+  position: absolute;
+  top: 17%;
+  left: 0;
+  width: 816px;
+  height: 816px;
+  transform: translateX(-50%);
+  background: radial-gradient(#9C319790 -40%, transparent 70%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.container>div{
+  max-width: 1400px;
+  margin: auto;
+}
+@media (max-width: 1200px){
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 767px){
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

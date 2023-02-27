@@ -1,0 +1,48 @@
+.investing {
+  background: rgba(24, 30, 39, 0.7);
+  border-radius: 10px;
+  padding: 45px 50px;
+}
+
+.investing h6 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.investing p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.investing hr {
+  background-color: #272727;
+  margin: 20px 0px;
+}
+
+.remainingbalance {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+@media (max-width: 976px) {
+  .investing {
+    padding: 45px 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .investing {
+    padding: 45px 16px;
+  }
+}

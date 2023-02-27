@@ -1,0 +1,16 @@
+.inputfield::placeholder {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.1;
+}
+
+.inputfield {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 250px;
+  width: 100%;
+}
